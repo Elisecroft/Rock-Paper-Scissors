@@ -1,0 +1,76 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-image: url(https://images.unsplash.com/photo-1519972345803-7b5e39723995?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 38px;
+    margin-bottom: 45px;
+}
+
+h2 {
+    font-family: 'ABeeZee', sans-serif;
+    margin-bottom: 45px;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.cardList {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.card {
+    padding: 8px 20px;
+    margin: 10px 20px;
+    margin: 0 auto;
+}
+
+#result {
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+
+.points {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.points p {
+    padding: 8px 15px;
+    margin: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    color: #FFF;
+    font-weight: 800;
+    -webkit-box-shadow: 9px 5px 12px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 5px 12px -7px rgba(0,0,0,0.75);
+    box-shadow: 9px 5px 12px -7px rgba(0,0,0,0.75);
+}
+
+#playerPoints {
+    background-color: #0AB9E6;
+}
+
+#cpuPoints {
+    background-color: #FF3C28;
+}
+
+#win {
+    margin-top: 45px;
+}

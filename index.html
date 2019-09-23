@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>RPS Game</title>
+        <meta name="description" content="Rock, paper, scissors game">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Welcome in Rock, Paper, Scissors Game !</h1>
+
+        <h2>Rules: Select a card, the first with 3 points win</h2>
+        <ul>
+            <li>Rock beat scissors</li>
+            <li>Scissors beat paper</li>
+            <li>Paper beat rock</li>
+        </ul>
+
+        <h2>Choose one :</h2>
+
+        <div class="cardList">
+            <input type="image" src="https://image.flaticon.com/icons/svg/2056/2056424.svg" class="card" id="card1" onclick="game(this.id)">
+            <input type="image" src="https://image.flaticon.com/icons/svg/2056/2056179.svg" class="card" id="card2" onclick="game(this.id)">
+            <input type="image" src="https://image.flaticon.com/icons/svg/2056/2056145.svg" class="card" id="card3" onclick="game(this.id)">
+        </div>
+
+        <p id="result">Wait your choice...</p>
+
+        <div class="points">
+            <p id="playerPoints" onclick="changeName()">Player points : 0</p>
+            <p id="cpuPoints">CPU points : 0</p>
+        </div>
+        <h2 id="win">Total win : </h2>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
