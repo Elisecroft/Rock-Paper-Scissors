@@ -1,6 +1,6 @@
 # Rock/Paper/Scissors Game
 
-Everebody now this game i think, so this game is an exercice to native JavaScript and understand th DOM. You can play [HERE](https://elisecroft.github.io/Rock-Paper-Scissors/). For now, this game is only deskop adaptative, so you can play at work or others if you want.
+Everebody know this game i think, so this game is an exercice to native JavaScript and understand the DOM. You can play [HERE](https://elisecroft.github.io/Rock-Paper-Scissors/). For now, this game is only deskop adaptative, so you can play at work or other if you want.
 
 ![Actual game](https://zupimages.net/up/19/40/en44.png)
 
