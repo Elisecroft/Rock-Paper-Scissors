@@ -20,6 +20,7 @@ You can play at this link : https://elisecroft.github.io/Rock-Paper-Scissors/
 
 ## Built with
 
+HTML/CSS - The basics of basics  
 [Native JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) -  Programming language  
 and my favorite code editor [Visual Studio Code](https://code.visualstudio.com/)
 
